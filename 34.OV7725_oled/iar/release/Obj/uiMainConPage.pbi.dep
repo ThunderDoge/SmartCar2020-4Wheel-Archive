@@ -1,0 +1,133 @@
+uiMainConPage.pbi: \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\uiMainConPage.c \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/UIControl.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_KEY.h \
+  E:\IAR8_40_1\arm\inc\c\stdint.h E:\IAR8_40_1\arm\inc\c\ycheck.h \
+  E:\IAR8_40_1\arm\inc\c\yvals.h E:\IAR8_40_1\arm\inc\c\DLib_Defaults.h \
+  E:\\IAR8_40_1\\arm\\inc\\c\\DLib_Config_Normal.h \
+  E:\IAR8_40_1\arm\inc\c\DLib_Product.h E:\IAR8_40_1\arm\inc\c\stdio.h \
+  E:\IAR8_40_1\arm\inc\c\ysizet.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_12864.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\include.h \
+  E:\IAR8_40_1\arm\inc\c\stdbool.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/UIVar.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/main.h \
+  E:\IAR8_40_1\arm\inc\c\math.h \
+  E:\IAR8_40_1\arm\inc\c\DLib_float_setup.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_adc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_common.h \
+  E:\IAR8_40_1\arm\inc\c\assert.h E:\IAR8_40_1\arm\inc\c\string.h \
+  E:\IAR8_40_1\arm\inc\c\DLib_Product_string.h \
+  E:\IAR8_40_1\arm\inc\c\stdlib.h \
+  E:\IAR8_40_1\arm\inc\c\DLib_Product_stdlib.h \
+  E:\IAR8_40_1\arm\inc\c\stddef.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\fsl_device_registers.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device/MIMXRT1052.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\CMSIS\Include\core_cm7.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\CMSIS\Include/cmsis_version.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\CMSIS\Include/cmsis_compiler.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\CMSIS\Include\cmsis_iccarm.h \
+  E:\IAR8_40_1\arm\inc\c\iccarm_builtin.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\CMSIS\Include/mpu_armv7.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device/system_MIMXRT1052.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device/MIMXRT1052_features.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_clock.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_cache.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_csi.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_common.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera/fsl_camera_receiver.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera/fsl_camera.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera/fsl_video_common.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_receiver.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_device.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\utilities\fsl_debug_console.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\utilities/serial_manager.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\utilities/serial_port_uart.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_elcdif.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_enc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_gpio.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_gpt.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_iomuxc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_lpuart.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_lpi2c.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_lpspi.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_pxp.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_pwm.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_pit.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_qtmr.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_trng.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_usdhc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_video_common.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_wdog.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_xbara.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\board\board.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\board/clock_config.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_gpio.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_clock.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\board\pin_mux.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_lpi2c.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexspi.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_lpuart_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_dmamux.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_IIC.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052/LQ_GPIO_Cfg.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_MT9V034M.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_csi.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_LED.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_PWM.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_pwm.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\UIVar.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_UART.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_ADC.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_MPU6050.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_Encoder.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_enc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_CSI.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052/LQ_MT9V034M.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_QTMR.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_qtmr.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_PIT.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_SPI.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052\fsl_lpspi.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_Flash.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/szx_image.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/sys.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\MIMXRT1052.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\MIMXRT1052_features.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_adc_etc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_aipstz.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_aoi.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_bee.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_cmp.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_dcdc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_enet.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_ewm.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexcan.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexio.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexio_i2c_master.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexio_i2s.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexio_i2s_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexio_uart.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexio_uart_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_flexram.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_gpc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_kpp.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_lpi2c_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_lpspi_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_pmu.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_rtwdog.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_sai.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_sai_edma.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_semc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_snvs_hp.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_snvs_lp.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_spdif.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_src.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_tsc.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Device\drivers\MIMXRT1052/fsl_xbarb.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052\LQ_Camera.h \
+  D:\BaiduNetdiskDownload\RT1052\RT1052new\3\ Example\ Code\Example\34.OV7725_oled\iar\..\..\..\Device\drivers\LQRT1052/LQ_CSI.h
