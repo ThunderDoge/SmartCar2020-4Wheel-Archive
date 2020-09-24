@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\IAR8_40_1\common\bin\cspybat" -f "D:\BaiduNetdiskDownload\RT1052\RT1052new\3 Example Code\Example\34.OV7725_oled\iar\settings\LQ_camera.release.general.xcl" --backend -f "D:\BaiduNetdiskDownload\RT1052\RT1052new\3 Example Code\Example\34.OV7725_oled\iar\settings\LQ_camera.release.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\IAR_Projekt\SmartCar2020-4Wheel-Archive\34.OV7725_oled\iar\settings\LQ_camera.release.general.xcl" --backend -f "D:\IAR_Projekt\SmartCar2020-4Wheel-Archive\34.OV7725_oled\iar\settings\LQ_camera.release.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\IAR8_40_1\common\bin\cspybat" -f "D:\BaiduNetdiskDownload\RT1052\RT1052new\3 Example Code\Example\34.OV7725_oled\iar\settings\LQ_camera.release.general.xcl" "--debug_file=%~1" --backend -f "D:\BaiduNetdiskDownload\RT1052\RT1052new\3 Example Code\Example\34.OV7725_oled\iar\settings\LQ_camera.release.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\IAR_Projekt\SmartCar2020-4Wheel-Archive\34.OV7725_oled\iar\settings\LQ_camera.release.general.xcl" "--debug_file=%~1" --backend -f "D:\IAR_Projekt\SmartCar2020-4Wheel-Archive\34.OV7725_oled\iar\settings\LQ_camera.release.driver.xcl" 
 
 @echo off 
 :end

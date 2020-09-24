@@ -1186,24 +1186,24 @@
         </settings>
     </configuration>
     <group>
-        <name>board</name>
+        <name>board-1</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\board\board.c</name>
+            <name>$PROJ_DIR$\..\..\Device\board\board.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\board\board.h</name>
+            <name>$PROJ_DIR$\..\..\Device\board\board.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\board\clock_config.c</name>
+            <name>$PROJ_DIR$\..\..\Device\board\clock_config.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\board\clock_config.h</name>
+            <name>$PROJ_DIR$\..\..\Device\board\clock_config.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\board\pin_mux.c</name>
+            <name>$PROJ_DIR$\..\..\Device\board\pin_mux.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\board\pin_mux.h</name>
+            <name>$PROJ_DIR$\..\..\Device\board\pin_mux.h</name>
         </file>
     </group>
     <group>
@@ -1213,348 +1213,348 @@
         </file>
     </group>
     <group>
-        <name>drivers</name>
+        <name>drivers-camera</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_device.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_receiver.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_device.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_receiver.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_clock.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_clock.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_common.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_common.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_csi.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_csi.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_enc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_enc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpio.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpio.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_iomuxc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pit.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pit.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pwm.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pwm.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_video_common.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbara.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbara.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\pitimer.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\pitimer.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\speedProcess.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\speedProcess.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\sys.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\camera\fsl_video_common.h</name>
         </file>
     </group>
     <group>
-        <name>lq</name>
+        <name>drivers-drivers</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\adcprocess.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_adc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\adcprocess.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_adc.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\angleProcess.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_clock.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\angleProcess.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_clock.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ANO_DT.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_common.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ANO_DT.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_common.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\ControlElement.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_csi.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\ControlElement.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_csi.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\imageGetSaveAndSend.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_enc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\imageGetSaveAndSend.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_enc.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_12864.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_gpio.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_12864SPI.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_gpio.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ADC.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_iomuxc.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ADC.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Camera.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Camera.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_CCD.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_CCD.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_CSI.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_CSI.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_pit.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Encoder.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_pit.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Encoder.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_pwm.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_pwm.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_xbara.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO_Cfg.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\fsl_xbara.h</name>
         </file>
+    </group>
+    <group>
+        <name>drivers-user</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_IIC.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\adcprocess.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_IIC.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\adcprocess.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_KEY.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\angleProcess.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_KEY.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\angleProcess.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_LED.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\ControlElement.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_LED.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\ControlElement.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_MT9V034M.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\imageGetSaveAndSend.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_MT9V034M.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\imageGetSaveAndSend.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_OV7725M.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\MainControl.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_OV7725M.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\MainControl.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PIT.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\myUtil.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PIT.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\myUtil.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PWM.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\pitimer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PWM.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\pitimer.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_QTMR.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\ring.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_QTMR.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\ring.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SGP18T.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\speedProcess.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SGP18T.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\speedProcess.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SPI.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\sys.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SPI.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\szx_color.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\szx_color.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\szx_image.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\szx_image.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\uiAdcPage.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_W25Q128.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\uiCamPage.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_W25Q128.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\UIControl.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\MainControl.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\UIControl.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\MainControl.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\uiMainConPage.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\myUtil.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\uiMainPage.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\myUtil.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\uiRunPage.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\ring.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\uiSpeedPage.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\ring.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\UIVar.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\szx_color.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\UIVar.h</name>
         </file>
+    </group>
+    <group>
+        <name>lq-LQ</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\szx_color.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_12864.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\szx_image.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_12864SPI.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\szx_image.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_ADC.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\uiAdcPage.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_ADC.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\uiCamPage.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_Camera.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\UIControl.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_Camera.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\UIControl.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_CCD.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\uiMainConPage.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_CCD.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\uiMainPage.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_CSI.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\uiRunPage.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_CSI.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\uiSpeedPage.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_Encoder.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\UIVar.c</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_Encoder.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\UIVar.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_FLASH.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_FLASH.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_GPIO.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_GPIO.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_GPIO_Cfg.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_IIC.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_IIC.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_KEY.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_KEY.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_LED.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_LED.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_MT9V034M.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_MT9V034M.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_OV7725M.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_OV7725M.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_PIT.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_PIT.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_PWM.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_PWM.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_QTMR.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_QTMR.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_SGP18T.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_SGP18T.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_SPI.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_SPI.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_UART.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_UART.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_W25Q128.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\drivers\LQRT1052\LQ_W25Q128.h</name>
         </file>
     </group>
     <group>
@@ -1569,73 +1569,73 @@
             <name>$PROJ_DIR$\..\main.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\main.h</name>
+            <name>$PROJ_DIR$\..\..\Device\drivers\MIMXRT1052\main.h</name>
         </file>
     </group>
     <group>
         <name>startup</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\startup\iar\startup_MIMXRT1052.s</name>
+            <name>$PROJ_DIR$\..\..\Device\startup\iar\startup_MIMXRT1052.s</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\system_MIMXRT1052.c</name>
+            <name>$PROJ_DIR$\..\..\Device\system_MIMXRT1052.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\system_MIMXRT1052.h</name>
-        </file>
-    </group>
-    <group>
-        <name>utilities</name>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_assert.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console_conf.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_str.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_str.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\lpuart_adapter.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\serial_manager.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\serial_manager.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\serial_port_uart.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\serial_port_uart.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\Device\utilities\uart.h</name>
+            <name>$PROJ_DIR$\..\..\Device\system_MIMXRT1052.h</name>
         </file>
     </group>
     <group>
-        <name>xip</name>
+        <name>utilities-1</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\xip\external_flash_config.h</name>
+            <name>$PROJ_DIR$\..\..\Device\utilities\fsl_assert.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\xip\fsl_flexspi_nor_boot.c</name>
+            <name>$PROJ_DIR$\..\..\Device\utilities\fsl_debug_console.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\xip\fsl_flexspi_nor_boot.h</name>
+            <name>$PROJ_DIR$\..\..\Device\utilities\fsl_debug_console.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\Device\xip\xip_config.c</name>
+            <name>$PROJ_DIR$\..\..\Device\utilities\fsl_debug_console_conf.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\fsl_str.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\fsl_str.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\lpuart_adapter.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\serial_manager.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\serial_manager.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\serial_port_uart.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\serial_port_uart.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\utilities\uart.h</name>
+        </file>
+    </group>
+    <group>
+        <name>xip-1</name>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\xip\external_flash_config.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\xip\fsl_flexspi_nor_boot.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\xip\fsl_flexspi_nor_boot.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Device\xip\xip_config.c</name>
         </file>
     </group>
 </project>

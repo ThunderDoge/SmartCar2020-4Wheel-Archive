@@ -8,7 +8,7 @@
 
 "-p" 
 
-"E:\IAR8_40_1\arm\CONFIG\debugger\NXP\MIMXRT1052xxx6B.ddf" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CONFIG\debugger\NXP\MIMXRT1052xxx6B.ddf" 
 
 "--drv_verify_download" 
 

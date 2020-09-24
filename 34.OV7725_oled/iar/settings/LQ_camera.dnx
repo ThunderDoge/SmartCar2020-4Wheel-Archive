@@ -22,7 +22,7 @@
     </Stack>
     <PlDriver>
         <FirstRun>0</FirstRun>
-        <MemConfigValue>E:\IAR8_40_1\arm\CONFIG\debugger\NXP\MIMXRT1052xxx6B.ddf</MemConfigValue>
+        <MemConfigValue>D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CONFIG\debugger\NXP\MIMXRT1052xxx6B.ddf</MemConfigValue>
     </PlDriver>
     <ArmDriver>
         <EnableCache>1</EnableCache>
