@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 
 release
+/34.OV7725_oled/iar/settings/*.wsdt
+/34.OV7725_oled/iar/LQ_camera.dep
