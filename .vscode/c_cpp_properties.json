@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "IAR",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/CMSIS/Include",
+                "${workspaceRoot}/Device/board",
+                "${workspaceRoot}/Device/drivers/LQRT1052",
+                "${workspaceRoot}/Device/drivers/MIMXRT1052",
+                "${workspaceRoot}/Device/drivers/MIMXRT1052/camera",
+                "${workspaceRoot}/Device/startup/iar",
+                "${workspaceRoot}/Device/utilities",
+                "${workspaceRoot}/Device/xip",
+                "${workspaceRoot}/Device",
+                "${workspaceRoot}/inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/CMSIS/Include",
+                    "${workspaceRoot}/Device/board",
+                    "${workspaceRoot}/Device/drivers/LQRT1052",
+                    "${workspaceRoot}/Device/drivers/MIMXRT1052",
+                    "${workspaceRoot}/Device/drivers/MIMXRT1052/camera",
+                    "${workspaceRoot}/Device/startup/iar",
+                    "${workspaceRoot}/Device/utilities",
+                    "${workspaceRoot}/Device/xip",
+                    "${workspaceRoot}/Device",
+                    "${workspaceRoot}/inc"
+    
+                ]
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
