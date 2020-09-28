@@ -4,6 +4,7 @@
 
 #include "sys.h"
 #include "pitimer.h"
+#include "filter.h"
 extern volatile uint16_t purpostEncVal;
 extern volatile uint16_t purpostEncValLeft;
 extern volatile uint16_t purpostEncValRight;

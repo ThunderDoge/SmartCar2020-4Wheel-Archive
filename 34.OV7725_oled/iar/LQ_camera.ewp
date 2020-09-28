@@ -367,6 +367,7 @@
                     <state>$PROJ_DIR$\..\..\Device\utilities</state>
                     <state>$PROJ_DIR$\..\..\Device\xip</state>
                     <state>$PROJ_DIR$\..\..\Device</state>
+                    <state>D:\IAR_Projekt\SmartCar2020-4Wheel-Archive\inc</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1472,6 +1473,15 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\Device\system_MIMXRT1052.h</name>
+        </file>
+    </group>
+    <group>
+        <name>user/commom</name>
+        <file>
+            <name>$PROJ_DIR$\..\..\src\filter.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\inc\filter.h</name>
         </file>
     </group>
     <group>

@@ -1585,6 +1585,15 @@
         </file>
     </group>
     <group>
+        <name>user/commom</name>
+        <file>
+            <name>$PROJ_DIR$\..\..\src\filter.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\inc\filter.h</name>
+        </file>
+    </group>
+    <group>
         <name>utilities-1</name>
         <file>
             <name>$PROJ_DIR$\..\..\Device\utilities\fsl_assert.c</name>
