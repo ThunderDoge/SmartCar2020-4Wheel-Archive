@@ -268,7 +268,8 @@ void InitAll()
         LQ_ADC_Init(ADC1, ADC1_CH8);
         LQ_ADC_Init(ADC1, ADC1_CH4);
         LQ_ADC_Init(ADC1, ADC1_CH14);
-	LQ_PIT_Init(kPIT_Chnl_1, 3000);//定时器5ms中断
+	LQ_PIT_Init(kPIT_Chnl_1, 3000);//定时器3ms中断
+        LQ_PIT_Init(kPIT_Chnl_2, 1000);//定时器1ms中断，用于编码器计算
         //LQ_PIT_Init(kPIT_Chnl_2, 600);//全局运行时间使用    375000
 	EncoderWork();			//编码器工作，得到速度
 	//MPU6050_Init(); //陀螺仪初始化

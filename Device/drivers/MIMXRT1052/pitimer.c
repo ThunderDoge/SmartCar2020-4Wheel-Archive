@@ -549,9 +549,15 @@ void deal_enc(Queue *queue){
   queue->currentEncValLeft = getEncoderValueLeft();
   queue->currentEncValRight = getEncoderValueRight();
   
-//  for(i = ENCODER_FIFO_LENGTH - 1;i > 0;i --)
-//  queue->encoder_cnt[i] = queue->encoder_cnt[i-1];
-//  queue->encoder_cnt[0] = (int16_t)((queue->currentEncValLeft + queue->currentEncValRight) / 2);
+  for(i = ENCODER_FIFO_LENGTH - 1;i > 0;i --)
+  {
+    queue->encoder_cnt_right[i] = queue->encoder_cnt_right[i-1];
+    queue->encoder_cnt[i] = queue->encoder_cnt[i-1];
+    queue->encoder_cnt_left[i] = queue->encoder_cnt_left[i-1];
+  }
+  queue->encoder_cnt[0] = (int16_t)((queue->currentEncValLeft + queue->currentEncValRight)/2);
+  queue->encoder_cnt_right[0] = (int16_t)( queue->currentEncValRight );
+  queue->encoder_cnt_left[0] = (int16_t)( queue->currentEncValLeft );
 }
 
 void deal_adc(Queue *queue){

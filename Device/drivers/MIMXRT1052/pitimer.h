@@ -42,6 +42,8 @@ typedef struct Queue_
   int16_t       currentEncValLeft;//当前左ENC值
   int16_t       currentEncValRight;//当前右ENC值
   int16_t       encoder_cnt[ENCODER_FIFO_LENGTH];//记录编码器的原始脉冲数
+  int16_t       encoder_cnt_left[ENCODER_FIFO_LENGTH];//记录编码器左边的原始脉冲数
+  int16_t       encoder_cnt_right[ENCODER_FIFO_LENGTH];//记录编码器右边的原始脉冲数
   bool          Cal_Speed_Flag;//使能电机计算TRUE/FALSE
   
 }Queue;
